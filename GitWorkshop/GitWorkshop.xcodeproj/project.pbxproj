@@ -12,6 +12,7 @@
 		742CEE6D230B21B900F7F2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE6B230B21B900F7F2AD /* Main.storyboard */; };
 		742CEE6F230B21BA00F7F2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE6E230B21BA00F7F2AD /* Assets.xcassets */; };
 		742CEE72230B21BA00F7F2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE70230B21BA00F7F2AD /* LaunchScreen.storyboard */; };
+		D187F2B6230C313700E973E9 /* CarlosModinezViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D187F2B5230C313700E973E9 /* CarlosModinezViewController.storyboard */; };
 		74500DDD230C2D2300CFAEE2 /* LuizVeloso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DDC230C2D2300CFAEE2 /* LuizVeloso.storyboard */; };
 		74500DDF230C2D5A00CFAEE2 /* LuizVelosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DDE230C2D5A00CFAEE2 /* LuizVelosoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		742CEE73230B21BA00F7F2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74500DDC230C2D2300CFAEE2 /* LuizVeloso.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LuizVeloso.storyboard; sourceTree = "<group>"; };
 		74500DDE230C2D5A00CFAEE2 /* LuizVelosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizVelosoViewController.swift; sourceTree = "<group>"; };
+		D187F2B5230C313700E973E9 /* CarlosModinezViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarlosModinezViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				742CEE6E230B21BA00F7F2AD /* Assets.xcassets */,
 				742CEE70230B21BA00F7F2AD /* LaunchScreen.storyboard */,
 				742CEE73230B21BA00F7F2AD /* Info.plist */,
+				D187F2B5230C313700E973E9 /* CarlosModinezViewController.storyboard */,
 			);
 			path = GitWorkshop;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				742CEE72230B21BA00F7F2AD /* LaunchScreen.storyboard in Resources */,
 				74500DDD230C2D2300CFAEE2 /* LuizVeloso.storyboard in Resources */,
 				742CEE6F230B21BA00F7F2AD /* Assets.xcassets in Resources */,
+				D187F2B6230C313700E973E9 /* CarlosModinezViewController.storyboard in Resources */,
 				742CEE6D230B21B900F7F2AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

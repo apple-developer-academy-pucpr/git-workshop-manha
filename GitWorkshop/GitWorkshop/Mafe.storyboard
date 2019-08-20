@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mafe View Controller-->
+        <scene sceneID="n2T-Pa-ASs">
+            <objects>
+                <viewController id="Xwl-i3-1Ix" customClass="MafeViewController" customModule="GitWorkshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R09-tY-Zor">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mafê" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO0-lD-9Q9">
+                                <rect key="frame" x="163.5" y="412.5" width="87.5" height="81.5"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="N8O-of-RfK">
+                                <rect key="frame" x="148" y="594" width="118" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" red="0.18477498205489418" green="0.479519157640034" blue="0.642578125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34593550503854997" green="0.7225926100579112" blue="0.90685766935348511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="HO0-lD-9Q9" firstAttribute="centerY" secondItem="vAT-yt-RrJ" secondAttribute="centerY" id="JfD-OZ-EeA"/>
+                            <constraint firstItem="HO0-lD-9Q9" firstAttribute="centerX" secondItem="vAT-yt-RrJ" secondAttribute="centerX" id="Qh6-OU-m44"/>
+                            <constraint firstItem="N8O-of-RfK" firstAttribute="top" secondItem="HO0-lD-9Q9" secondAttribute="bottom" constant="100" id="nZ6-0T-apr"/>
+                            <constraint firstItem="N8O-of-RfK" firstAttribute="centerX" secondItem="vAT-yt-RrJ" secondAttribute="centerX" id="rQU-wN-hEj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vAT-yt-RrJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZhT-8F-qqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101" y="121"/>
+        </scene>
+    </scenes>
+</document>

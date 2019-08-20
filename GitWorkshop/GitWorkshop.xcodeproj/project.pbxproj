@@ -12,6 +12,8 @@
 		742CEE6D230B21B900F7F2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE6B230B21B900F7F2AD /* Main.storyboard */; };
 		742CEE6F230B21BA00F7F2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE6E230B21BA00F7F2AD /* Assets.xcassets */; };
 		742CEE72230B21BA00F7F2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742CEE70230B21BA00F7F2AD /* LaunchScreen.storyboard */; };
+		9DFBEEC4230C2D3000961437 /* Mafe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFBEEC3230C2D3000961437 /* Mafe.storyboard */; };
+		9DFBEEC6230C2D5000961437 /* MafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBEEC5230C2D5000961437 /* MafeViewController.swift */; };
 		74500DDD230C2D2300CFAEE2 /* LuizVeloso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DDC230C2D2300CFAEE2 /* LuizVeloso.storyboard */; };
 		74500DDF230C2D5A00CFAEE2 /* LuizVelosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DDE230C2D5A00CFAEE2 /* LuizVelosoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		742CEE6E230B21BA00F7F2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742CEE71230B21BA00F7F2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		742CEE73230B21BA00F7F2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFBEEC3230C2D3000961437 /* Mafe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mafe.storyboard; sourceTree = "<group>"; };
+		9DFBEEC5230C2D5000961437 /* MafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafeViewController.swift; sourceTree = "<group>"; };
 		74500DDC230C2D2300CFAEE2 /* LuizVeloso.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LuizVeloso.storyboard; sourceTree = "<group>"; };
 		74500DDE230C2D5A00CFAEE2 /* LuizVelosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizVelosoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				742CEE6E230B21BA00F7F2AD /* Assets.xcassets */,
 				742CEE70230B21BA00F7F2AD /* LaunchScreen.storyboard */,
 				742CEE73230B21BA00F7F2AD /* Info.plist */,
+				9DFBEEC3230C2D3000961437 /* Mafe.storyboard */,
+				9DFBEEC5230C2D5000961437 /* MafeViewController.swift */,
 			);
 			path = GitWorkshop;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 				74500DDD230C2D2300CFAEE2 /* LuizVeloso.storyboard in Resources */,
 				742CEE6F230B21BA00F7F2AD /* Assets.xcassets in Resources */,
 				742CEE6D230B21B900F7F2AD /* Main.storyboard in Resources */,
+				9DFBEEC4230C2D3000961437 /* Mafe.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFBEEC6230C2D5000961437 /* MafeViewController.swift in Sources */,
 				74500DDF230C2D5A00CFAEE2 /* LuizVelosoViewController.swift in Sources */,
 				742CEE6A230B21B900F7F2AD /* ViewController.swift in Sources */,
 				742CEE68230B21B900F7F2AD /* AppDelegate.swift in Sources */,

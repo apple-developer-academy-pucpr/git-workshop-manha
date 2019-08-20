@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kYG-Dh-DNN">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,13 +17,156 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8IP-Pe-o5T">
+                                <rect key="frame" x="147" y="100" width="120" height="696"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ3-48-dJd">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Saulo">
+                                            <color key="titleColor" red="0.51648056519999996" green="0.67861598590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iog-za-eQq">
+                                        <rect key="frame" x="0.0" y="87" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Mafe">
+                                            <color key="titleColor" red="0.51648056519999996" green="0.67861598590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvJ-6z-u8c">
+                                        <rect key="frame" x="0.0" y="174" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Carlos">
+                                            <color key="titleColor" red="0.51648056519999996" green="0.67861598590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlA-Yq-4ml">
+                                        <rect key="frame" x="0.0" y="261" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Lucas Ronnau">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="OoE-Eg-QHH" kind="show" id="mMU-8L-SfH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzm-tM-tg6">
+                                        <rect key="frame" x="0.0" y="348" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Luiz Veloso">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ssr-2j-x3r" kind="show" id="vTj-0K-Uha"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLo-8S-u4N">
+                                        <rect key="frame" x="0.0" y="435" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="José">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="dPL-aT-3aQ" kind="show" id="sXF-K7-nD7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLT-RX-i8G">
+                                        <rect key="frame" x="0.0" y="522" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="Felipe Mesquita">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="J3q-Ny-C0y" kind="show" id="pNL-Pr-zZF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nat-Hz-q0Y">
+                                        <rect key="frame" x="0.0" y="609" width="120" height="87"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                        <state key="normal" title="VB">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="rFe-N5-lRh" kind="show" id="ad8-0K-OVW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.52103256166081757" green="0.4596982013329709" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8IP-Pe-o5T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="OLt-8p-Ox5"/>
+                            <constraint firstItem="8IP-Pe-o5T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PMg-iw-vwd"/>
+                            <constraint firstAttribute="bottom" secondItem="8IP-Pe-o5T" secondAttribute="bottom" constant="100" id="iok-c9-RqS"/>
+                            <constraint firstItem="8IP-Pe-o5T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jma-N9-lr2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="F4Q-IM-H8o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="153"/>
+            <point key="canvasLocation" x="1257.9710144927537" y="152.67857142857142"/>
+        </scene>
+        <!--LucasRonnau-->
+        <scene sceneID="jBI-Ab-cxL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LucasRonnau" id="OoE-Eg-QHH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15C-wQ-MpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1813.7681159420292" y="-77.008928571428569"/>
+        </scene>
+        <!--LuizVeloso-->
+        <scene sceneID="0zC-VP-Drf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LuizVeloso" id="ssr-2j-x3r" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFF-am-cLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802.8985507246377" y="2.6785714285714284"/>
+        </scene>
+        <!--Jose-->
+        <scene sceneID="ftY-kX-4dU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Jose" id="dPL-aT-3aQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rg-6h-Ihc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771.7391304347827" y="188.83928571428569"/>
+        </scene>
+        <!--FelipeMesquita-->
+        <scene sceneID="tBu-aS-Agf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FelipeMesquita" id="J3q-Ny-C0y" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xm1-VC-DdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823.913043478261" y="272.54464285714283"/>
+        </scene>
+        <!--VBStoryboard-->
+        <scene sceneID="fzW-88-ZZQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="VBStoryboard" id="rFe-N5-lRh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ow1-Cd-9yV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1818.840579710145" y="354.91071428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vER-ac-yPf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kYG-Dh-DNN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l1k-Ch-mgh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uIg-gN-EGy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UxV-dw-HaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347.82608695652175" y="152.67857142857142"/>
         </scene>
     </scenes>
 </document>
